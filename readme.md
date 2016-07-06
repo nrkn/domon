@@ -19,6 +19,7 @@ It looks like (for example, a DOM element):
 
 The DOMON API looks like:
 
+```
 {
   validate: domon => boolean,
   parse: str => domon,
@@ -26,6 +27,7 @@ The DOMON API looks like:
   toDom: ( document, domon ) => dom,
   fromDom: ( document, dom ) => domon
 }
+```
 
 ```javascript
 const assert = require( 'assert' )
