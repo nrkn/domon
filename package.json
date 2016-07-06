@@ -1,5 +1,6 @@
 {
   "name": "domon",
+  "version": "0.1.0",
   "description": "A lightweight DOM representation format",
   "main": "index.js",
   "directories": {
